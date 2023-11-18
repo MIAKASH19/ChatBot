@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>ChatBot</title>
+</head>
+<body >
+    <button class="chatbot-toggler">
+        <i class="ri-chat-4-line"></i>
+        <i class="ri-close-fill"></i>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <i class="close-btn ri-close-fill"></i>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <i class="ri-robot-2-line"></i>
+                <p id="incomingpara">Hi there 👋🖐 <br> How can i help you today? </p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." required></textarea>
+            <i class="ri-send-plane-2-line"></i>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
